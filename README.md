@@ -23,6 +23,9 @@ Packing is a technique used to compress and obfuscate an executable file, making
 
 The program checks if the executable is packed by looking for common packer signatures and analyzing the entropy of individual sections within the executable. If the program detects the presence of a packer or finds sections with high entropy, it indicates that the executable is likely packed.
 
+## Results
+![Program Output](https://github.com/ericyoc/win_entropy_packing/main/results.jpg)
+
 ## Program Functionality
 The program performs the following steps:
 
