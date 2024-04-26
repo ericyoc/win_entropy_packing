@@ -1,6 +1,6 @@
 # Entropy and Packing Analysis
 
-This Python program is designed to assist cyber analysts in analyzing Windows executable files by calculating entropy, determining entropy levels, and detecting if the executable is packed. The program provides valuable insights for malware analysis and helps identify potential indicators of malicious behavior.
+This Python program is designed to assist in analyzing Windows executable files by calculating entropy, determining entropy levels, and detecting if the executable is packed. The program provides valuable insights for malware analysis and helps identify potential indicators of malicious behavior.
 
 ## Introduction
 Entropy and packing are two important concepts in the context of malware analysis. Entropy measures the randomness or disorder in the distribution of bytes within a file, while packing refers to the process of compressing and obfuscating an executable to make it harder to analyze and reverse engineer. This program combines these concepts to provide insights into the nature of Windows executable files.
