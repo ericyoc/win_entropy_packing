@@ -4,6 +4,7 @@ This Python program is designed to assist in analyzing Windows executable files 
 
 ## Motivating Article
 Alkhateeb E, Ghorbani A, Habibi Lashkari A. Identifying Malware Packers through Multilayer Feature Engineering in Static Analysis. Information. 2024; 15(2):102. https://doi.org/10.3390/info15020102.
+
 https://www.mdpi.com/2078-2489/15/2/102
 
 ## Introduction
