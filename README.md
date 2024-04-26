@@ -5,8 +5,6 @@ This Python program is designed to assist in analyzing Windows executable files 
 ## Motivating Article
 Alkhateeb E, Ghorbani A, Habibi Lashkari A. Identifying Malware Packers through Multilayer Feature Engineering in Static Analysis. Information. 2024; 15(2):102. https://doi.org/10.3390/info15020102.
 
-https://www.mdpi.com/2078-2489/15/2/102
-
 ## Introduction
 Entropy and packing are two important concepts in the context of malware analysis. Entropy measures the randomness or disorder in the distribution of bytes within a file, while packing refers to the process of compressing and obfuscating an executable to make it harder to analyze and reverse engineer. This program combines these concepts to provide insights into the nature of Windows executable files.
 
@@ -28,22 +26,11 @@ The program checks if the executable is packed by looking for common packer sign
 ## Program Functionality
 The program performs the following steps:
 
-1. It prompts the user to enter the path to a Windows executable file.
+1. Path to a Windows executable file is provided to upacked Windows executable (e.g., calc.exe).
 2. It analyzes the original executable file by calculating its entropy, determining the entropy level, detecting if it is packed, and displaying the section names.
 3. It attempts to pack the executable using UPX-UCL, a popular packing tool.
 4. If the packing is successful, it analyzes the packed executable file, calculating its entropy, determining the entropy level, and displaying the section names.
 5. It provides explanations for the entropy levels and why a packed file may have lower entropy compared to the original file.
-
-## Usage
-To use this program, follow these steps:
-
-1. Install Python on your system if it is not already installed.
-2. Install the required dependencies by running `pip install pefile` and `pip install pyinstaller`.
-3. Save the program code in a Python file with a `.py` extension.
-4. Open a terminal or command prompt and navigate to the directory where the Python file is saved.
-5. Run the program by executing the command `python filename.py`, replacing `filename.py` with the actual name of your Python file.
-6. When prompted, enter the path to the Windows executable file you want to analyze.
-7. The program will display the analysis results for the original executable and the packed executable (if packing is successful).
 
 ## Importance
 Analyzing the entropy and packing of executable files is crucial for malware analysis. Here's why:
