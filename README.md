@@ -49,3 +49,5 @@ It's important to note that while high entropy and packing can be indicators of 
 Additionally, the program relies on the presence of the UPX-UCL packing tool. If UPX-UCL is not installed or not in the system PATH, the program will display an error message.
 
 Always exercise caution when analyzing and handling potentially malicious files. Make sure to follow proper security practices and use appropriate safeguards, such as running the analysis in an isolated environment.
+
+This repository is intended for educational and research purposes.
