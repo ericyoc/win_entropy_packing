@@ -2,10 +2,12 @@
 
 This Python program is designed to assist in analyzing Windows executable files by calculating entropy, determining entropy levels, and detecting if the executable is packed. The program provides valuable insights for malware analysis and helps identify potential indicators of malicious behavior.
 
-## Motivating Articles
+## Motivating Articles and Related Work
 Alkhateeb E, Ghorbani A, Habibi Lashkari A. Identifying Malware Packers through Multilayer Feature Engineering in Static Analysis. Information. 2024; 15(2):102. https://doi.org/10.3390/info15020102.
 
 Bermejo Higuera J, Abad Aramburu C, Bermejo Higuera J-R, Sicilia Urban MA, Sicilia Montalvo JA. Systematic Approach to Malware Analysis (SAMA). Applied Sciences. 2020; 10(4):1360. https://doi.org/10.3390/app10041360
+
+OSDev.org PE Ref: https://wiki.osdev.org/PE
 
 ## Introduction
 Entropy and packing are two important concepts in the context of malware analysis. Entropy measures the randomness or disorder in the distribution of bytes within a file, while packing refers to the process of compressing and obfuscating an executable to make it harder to analyze and reverse engineer. This program combines these concepts to provide insights into the nature of Windows executable files.
